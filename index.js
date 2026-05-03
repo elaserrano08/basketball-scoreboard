@@ -11,3 +11,5 @@ function addPoints(team, points) {
         document.getElementById("guest-score").textContent = guestScore;
     }
 }
+window.addPoints = addPoints
+
